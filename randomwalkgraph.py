@@ -7,7 +7,7 @@ p = {1 : [2, 4],
      4 : [1],
      5 : [2, 6],
      6 : [5]}
-# length histogram
+# create histogram of lengths
 h = {}
 i = 0
 sum = 0
