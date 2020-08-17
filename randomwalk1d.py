@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 histo = {}
 pos = 0
 count = 0
+# simulate
 while count < 1000000:
   pos = pos + 2*random.randint(0, 1) - 1
   if pos not in histo:
