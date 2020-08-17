@@ -1,2 +1,2 @@
 # python
-Simple programs I've developed to test some features
+Simple programs I've developed to demonstrate my students some interesting facts...
