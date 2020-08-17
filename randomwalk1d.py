@@ -2,9 +2,10 @@ import random
 import matplotlib.pyplot as plt
 histo = {}
 pos = 0
+N = int(input('Quantos movimentos?'))
 count = 0
 # simulate
-while count < 1000000:
+while count < N:
   pos = pos + 2*random.randint(0, 1) - 1
   if pos not in histo:
     histo[pos] = 1
