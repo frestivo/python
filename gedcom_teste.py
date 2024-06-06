@@ -1,4 +1,5 @@
-file_path = "/Users/frestivo/Documents/Genealogia/Francisco Restivo full family 20231129.ged"
+file_path = "Francisco Restivo full family_20240604.ged"
+output_file = "redegenealogica20240604.csv"
 
 with open(file_path, "r") as f:
     lines = f.readlines()
@@ -20,6 +21,6 @@ for l in lines:
 
 print(n, 'lines read')
 
-with open('redegenealogica2.csv', 'w') as f:
+with open(output_file, 'w') as f:
     for i in indi:
         f.write(i)
